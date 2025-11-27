@@ -12,7 +12,7 @@
   "icon": "https://raw.githubusercontent.com/Mainfrezzer/UnRaid-Templates/main/icon/adguard.png",
   "project": "https://github.com/AdguardTeam/AdGuardHome",
   "support": "https://forums.unraid.net/topic/182778-support-mainfrezzer-docker-repo/",
-  "description": "AdGuard Home is a network-wide software for blocking ads &amp; tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your whole network.\r\rThis AdGuard Home container includes Unbound. Just set the address to 127.0.0.1:8053 and/or (SQUARE BRACKET LEFT)::1(SQUARE BRACKET RIGHT):8053 to use it.\r\rIt will download roothints upon first start and then once weekly.",
+  "description": "AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your whole network.\r\rThis AdGuard Home container includes Unbound. Just set the address to 127.0.0.1:8053 and/or [::1]:8053 to use it.\r\rIt will download roothints upon first start and then once weekly.",
   "paths": [
     {
       "name": "Working Directory",
