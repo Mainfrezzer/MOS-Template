@@ -9,6 +9,10 @@
   "post_parameters": "",
   "web_ui_url": "http://[IP]:[PORT:8765]",
   "icon": "https://raw.githubusercontent.com/ich777/miniassistant/refs/heads/master/miniassistant/web/static/miniassistant.png",
+  "project": "https://github.com/ich777/miniassistant",
+  "support": "https://github.com/ich777/miniassistant",
+  "description": "Schlanker lokaler Assistent mit Multi-Provider-Support: Ollama (lokal/remote), Google Gemini API, OpenAI API (GPT-4o, DALL-E, o-Serie), DeepSeek API (V3, R1), Anthropic API (Claude), Claude Code CLI. Agent-Dateien (optional AGENTS.md, SOUL, IDENTITY, TOOLS, USER), Modellwechsel per /model MODELLNAME oder Alias, Token-Auth, kleines Memory, minimalistisches Web-UI und CLI.",
+  
   "paths": [
     {
       "name": "Config",
