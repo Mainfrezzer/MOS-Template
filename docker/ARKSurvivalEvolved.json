@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "SteamCMD",
-      "host": "/mnt/Magnon/appdata/steamcmd",
+      "host": "/mnt/cache/appdata/steamcmd",
       "container": "/serverdata/steamcmd",
       "mode": "rw",
       "description": "Container Path: /serverdata/steamcmd",
@@ -24,7 +24,7 @@
     },
     {
       "name": "ServerFiles",
-      "host": "/mnt/Magnon/appdata/ark-se",
+      "host": "/mnt/cache/appdata/ark-se",
       "container": "/serverdata/serverfiles",
       "mode": "rw",
       "description": "Container Path: /serverdata/serverfiles",
