@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "Wireguard Config",
-      "host": "/mnt/Magnon/appdata/wg-bridge",
+      "host": "/mnt/cache/appdata/wg-bridge",
       "container": "/etc/wireguard/",
       "mode": "rw",
       "description": "Location to place your wg0.conf",
