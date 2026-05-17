@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "Config",
-      "host": "/mnt/Magnon/appdata/copyparty",
+      "host": "/mnt/cache/appdata/copyparty",
       "container": "/cfg",
       "mode": "rw",
       "description": null,
@@ -24,7 +24,7 @@
     },
     {
       "name": "'Temporary' Data (Salts, Session DB, Share DB)",
-      "host": "/mnt/Magnon/appdata/copyparty/tmp",
+      "host": "/mnt/cache/appdata/copyparty/tmp",
       "container": "/tmp/copyparty",
       "mode": "rw",
       "description": null,
@@ -32,7 +32,7 @@
     },
     {
       "name": "Storage",
-      "host": "/mnt/Magnon/SHARE",
+      "host": "/mnt/cache/SHARE",
       "container": "/w",
       "mode": "rw",
       "description": null,
