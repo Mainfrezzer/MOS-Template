@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "Working Directory",
-      "host": "/mnt/Magnon/appdata/adguard/workingdir",
+      "host": "/mnt/cache/appdata/adguard/workingdir",
       "container": "/opt/adguardhome/work",
       "mode": "rw",
       "description": "/opt/adguardhome/work",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Config Directory",
-      "host": "/mnt/Magnon/appdata/adguard/config",
+      "host": "/mnt/cache/appdata/adguard/config",
       "container": "/opt/adguardhome/conf",
       "mode": "rw",
       "description": "Configuration Directory",
