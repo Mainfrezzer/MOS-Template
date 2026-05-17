@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "App Location",
-      "host": "/mnt/Magnon/appdata/bashupload",
+      "host": "/mnt/cache/appdata/bashupload",
       "container": "/app",
       "mode": "rw",
       "description": "Location for the installed app alongside the configuration files",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Filestorage",
-      "host": "/mnt/Magnon/bashupload",
+      "host": "/mnt/cache/bashupload",
       "container": "/app/files",
       "mode": "rw",
       "description": "Storage location for all uploaded files",
