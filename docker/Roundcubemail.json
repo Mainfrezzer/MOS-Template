@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "www-data",
-      "host": "/mnt/Magnon/appdata/roundcubemail/html",
+      "host": "/mnt/cache/appdata/roundcubemail/html",
       "container": "/var/www/html",
       "mode": "rw",
       "description": "Path for the webinterface",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Database",
-      "host": "/mnt/Magnon/appdata/roundcubemail/db",
+      "host": "/mnt/cache/appdata/roundcubemail/db",
       "container": "/var/roundcube/db",
       "mode": "rw",
       "description": "Path for the databank",
