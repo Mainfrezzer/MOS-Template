@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "Data",
-      "host": "/mnt/Magnon/appdata/WGDashboard/data",
+      "host": "/mnt/cache/appdata/WGDashboard/data",
       "container": "/data",
       "mode": "rw",
       "description": null,
@@ -24,7 +24,7 @@
     },
     {
       "name": "Amnezia-Server-Config",
-      "host": "/mnt/Magnon/appdata/WGDashboard/amneziawg",
+      "host": "/mnt/cache/appdata/WGDashboard/amneziawg",
       "container": "/etc/amnezia/amneziawg",
       "mode": "rw",
       "description": null,
@@ -32,7 +32,7 @@
     },
     {
       "name": "Wireguard-Server-Config",
-      "host": "/mnt/Magnon/appdata/WGDashboard/wireguard",
+      "host": "/mnt/cache/appdata/WGDashboard/wireguard",
       "container": "/etc/wireguard",
       "mode": "rw",
       "description": null,
