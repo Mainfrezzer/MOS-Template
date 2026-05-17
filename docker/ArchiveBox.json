@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "Data",
-      "host": "/mnt/Magnon/appdata/ArchiveBox",
+      "host": "/mnt/cache/appdata/ArchiveBox",
       "container": "/data",
       "mode": "rw",
       "description": "Contains the DB and logfiles",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Archive Data",
-      "host": "/mnt/Magnon/SHARE/ArchiveBox",
+      "host": "/mnt/cache/SHARE/ArchiveBox",
       "container": "/data/archive",
       "mode": "rw",
       "description": "Contains all the data thats being archived.",
