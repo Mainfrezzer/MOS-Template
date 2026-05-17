@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "Config",
-      "host": "/mnt/Magnon/appdata/gptwol/db",
+      "host": "/mnt/cache/appdata/gptwol/db",
       "container": "/app/db",
       "mode": "rw",
       "description": "If you migrate from an earlier version, just move the old computer.txt to the new location",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Cron",
-      "host": "/mnt/Magnon/appdata/gptwol/cron",
+      "host": "/mnt/cache/appdata/gptwol/cron",
       "container": "/etc/cron.d",
       "mode": "rw",
       "description": null,
