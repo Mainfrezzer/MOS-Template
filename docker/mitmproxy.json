@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "Config",
-      "host": "/mnt/Magnon/appdata/mitmproxy",
+      "host": "/mnt/cache/appdata/mitmproxy",
       "container": "/home/mitmproxy/.mitmproxy",
       "mode": "rw",
       "description": null,
