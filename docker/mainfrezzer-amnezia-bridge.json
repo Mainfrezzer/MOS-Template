@@ -16,7 +16,7 @@
   "paths": [
     {
       "name": "Wireguard Config",
-      "host": "/mnt/Magnon/appdata/amnezia-bridge",
+      "host": "/mnt/cache/appdata/amnezia-bridge",
       "container": "/etc/amnezia/amneziawg/",
       "mode": "rw",
       "description": "Location to place your wg0.conf",
